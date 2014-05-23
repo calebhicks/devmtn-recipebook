@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C7CB74F192EDD0F00A67393 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7CB74E192EDD0F00A67393 /* Foundation.framework */; };
+		3C7CB751192EDD0F00A67393 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7CB750192EDD0F00A67393 /* CoreGraphics.framework */; };
+		3C7CB753192EDD0F00A67393 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7CB752192EDD0F00A67393 /* UIKit.framework */; };
+		3C7CB759192EDD0F00A67393 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C7CB757192EDD0F00A67393 /* InfoPlist.strings */; };
+		3C7CB75B192EDD0F00A67393 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7CB75A192EDD0F00A67393 /* main.m */; };
+		3C7CB75F192EDD0F00A67393 /* RXAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7CB75E192EDD0F00A67393 /* RXAppDelegate.m */; };
+		3C7CB761192EDD0F00A67393 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3C7CB760192EDD0F00A67393 /* Images.xcassets */; };
+		3C7CB768192EDD0F00A67393 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7CB767192EDD0F00A67393 /* XCTest.framework */; };
+		3C7CB769192EDD0F00A67393 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7CB74E192EDD0F00A67393 /* Foundation.framework */; };
+		3C7CB76A192EDD0F00A67393 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7CB752192EDD0F00A67393 /* UIKit.framework */; };
+		3C7CB772192EDD0F00A67393 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C7CB770192EDD0F00A67393 /* InfoPlist.strings */; };
+		3C7CB774192EDD0F00A67393 /* Recipe_Book_RealTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7CB773192EDD0F00A67393 /* Recipe_Book_RealTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3C7CB76B192EDD0F00A67393 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3C7CB743192EDD0F00A67393 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3C7CB74A192EDD0F00A67393;
+			remoteInfo = "Recipe Book Real";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3C7CB74B192EDD0F00A67393 /* Recipe Book Real.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe Book Real.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C7CB74E192EDD0F00A67393 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3C7CB750192EDD0F00A67393 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3C7CB752192EDD0F00A67393 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3C7CB756192EDD0F00A67393 /* Recipe Book Real-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe Book Real-Info.plist"; sourceTree = "<group>"; };
+		3C7CB758192EDD0F00A67393 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C7CB75A192EDD0F00A67393 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3C7CB75C192EDD0F00A67393 /* Recipe Book Real-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Recipe Book Real-Prefix.pch"; sourceTree = "<group>"; };
+		3C7CB75D192EDD0F00A67393 /* RXAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RXAppDelegate.h; sourceTree = "<group>"; };
+		3C7CB75E192EDD0F00A67393 /* RXAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RXAppDelegate.m; sourceTree = "<group>"; };
+		3C7CB760192EDD0F00A67393 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3C7CB766192EDD0F00A67393 /* Recipe Book RealTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Recipe Book RealTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3C7CB767192EDD0F00A67393 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3C7CB76F192EDD0F00A67393 /* Recipe Book RealTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe Book RealTests-Info.plist"; sourceTree = "<group>"; };
+		3C7CB771192EDD0F00A67393 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3C7CB773192EDD0F00A67393 /* Recipe_Book_RealTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Recipe_Book_RealTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3C7CB748192EDD0F00A67393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7CB751192EDD0F00A67393 /* CoreGraphics.framework in Frameworks */,
+				3C7CB753192EDD0F00A67393 /* UIKit.framework in Frameworks */,
+				3C7CB74F192EDD0F00A67393 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C7CB763192EDD0F00A67393 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7CB768192EDD0F00A67393 /* XCTest.framework in Frameworks */,
+				3C7CB76A192EDD0F00A67393 /* UIKit.framework in Frameworks */,
+				3C7CB769192EDD0F00A67393 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3C7CB742192EDD0F00A67393 = {
+			isa = PBXGroup;
+			children = (
+				3C7CB754192EDD0F00A67393 /* Recipe Book Real */,
+				3C7CB76D192EDD0F00A67393 /* Recipe Book RealTests */,
+				3C7CB74D192EDD0F00A67393 /* Frameworks */,
+				3C7CB74C192EDD0F00A67393 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3C7CB74C192EDD0F00A67393 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3C7CB74B192EDD0F00A67393 /* Recipe Book Real.app */,
+				3C7CB766192EDD0F00A67393 /* Recipe Book RealTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3C7CB74D192EDD0F00A67393 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3C7CB74E192EDD0F00A67393 /* Foundation.framework */,
+				3C7CB750192EDD0F00A67393 /* CoreGraphics.framework */,
+				3C7CB752192EDD0F00A67393 /* UIKit.framework */,
+				3C7CB767192EDD0F00A67393 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3C7CB754192EDD0F00A67393 /* Recipe Book Real */ = {
+			isa = PBXGroup;
+			children = (
+				3C7CB75D192EDD0F00A67393 /* RXAppDelegate.h */,
+				3C7CB75E192EDD0F00A67393 /* RXAppDelegate.m */,
+				3C7CB760192EDD0F00A67393 /* Images.xcassets */,
+				3C7CB755192EDD0F00A67393 /* Supporting Files */,
+			);
+			path = "Recipe Book Real";
+			sourceTree = "<group>";
+		};
+		3C7CB755192EDD0F00A67393 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C7CB756192EDD0F00A67393 /* Recipe Book Real-Info.plist */,
+				3C7CB757192EDD0F00A67393 /* InfoPlist.strings */,
+				3C7CB75A192EDD0F00A67393 /* main.m */,
+				3C7CB75C192EDD0F00A67393 /* Recipe Book Real-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3C7CB76D192EDD0F00A67393 /* Recipe Book RealTests */ = {
+			isa = PBXGroup;
+			children = (
+				3C7CB773192EDD0F00A67393 /* Recipe_Book_RealTests.m */,
+				3C7CB76E192EDD0F00A67393 /* Supporting Files */,
+			);
+			path = "Recipe Book RealTests";
+			sourceTree = "<group>";
+		};
+		3C7CB76E192EDD0F00A67393 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3C7CB76F192EDD0F00A67393 /* Recipe Book RealTests-Info.plist */,
+				3C7CB770192EDD0F00A67393 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3C7CB74A192EDD0F00A67393 /* Recipe Book Real */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C7CB777192EDD0F00A67393 /* Build configuration list for PBXNativeTarget "Recipe Book Real" */;
+			buildPhases = (
+				3C7CB747192EDD0F00A67393 /* Sources */,
+				3C7CB748192EDD0F00A67393 /* Frameworks */,
+				3C7CB749192EDD0F00A67393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Recipe Book Real";
+			productName = "Recipe Book Real";
+			productReference = 3C7CB74B192EDD0F00A67393 /* Recipe Book Real.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3C7CB765192EDD0F00A67393 /* Recipe Book RealTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3C7CB77A192EDD0F00A67393 /* Build configuration list for PBXNativeTarget "Recipe Book RealTests" */;
+			buildPhases = (
+				3C7CB762192EDD0F00A67393 /* Sources */,
+				3C7CB763192EDD0F00A67393 /* Frameworks */,
+				3C7CB764192EDD0F00A67393 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3C7CB76C192EDD0F00A67393 /* PBXTargetDependency */,
+			);
+			name = "Recipe Book RealTests";
+			productName = "Recipe Book RealTests";
+			productReference = 3C7CB766192EDD0F00A67393 /* Recipe Book RealTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3C7CB743192EDD0F00A67393 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = RX;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Dev Mountain";
+				TargetAttributes = {
+					3C7CB765192EDD0F00A67393 = {
+						TestTargetID = 3C7CB74A192EDD0F00A67393;
+					};
+				};
+			};
+			buildConfigurationList = 3C7CB746192EDD0F00A67393 /* Build configuration list for PBXProject "Recipe Book Real" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3C7CB742192EDD0F00A67393;
+			productRefGroup = 3C7CB74C192EDD0F00A67393 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3C7CB74A192EDD0F00A67393 /* Recipe Book Real */,
+				3C7CB765192EDD0F00A67393 /* Recipe Book RealTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3C7CB749192EDD0F00A67393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7CB759192EDD0F00A67393 /* InfoPlist.strings in Resources */,
+				3C7CB761192EDD0F00A67393 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C7CB764192EDD0F00A67393 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7CB772192EDD0F00A67393 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3C7CB747192EDD0F00A67393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7CB75F192EDD0F00A67393 /* RXAppDelegate.m in Sources */,
+				3C7CB75B192EDD0F00A67393 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3C7CB762192EDD0F00A67393 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C7CB774192EDD0F00A67393 /* Recipe_Book_RealTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3C7CB76C192EDD0F00A67393 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3C7CB74A192EDD0F00A67393 /* Recipe Book Real */;
+			targetProxy = 3C7CB76B192EDD0F00A67393 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3C7CB757192EDD0F00A67393 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C7CB758192EDD0F00A67393 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3C7CB770192EDD0F00A67393 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3C7CB771192EDD0F00A67393 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3C7CB775192EDD0F00A67393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3C7CB776192EDD0F00A67393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3C7CB778192EDD0F00A67393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe Book Real/Recipe Book Real-Prefix.pch";
+				INFOPLIST_FILE = "Recipe Book Real/Recipe Book Real-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3C7CB779192EDD0F00A67393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe Book Real/Recipe Book Real-Prefix.pch";
+				INFOPLIST_FILE = "Recipe Book Real/Recipe Book Real-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3C7CB77B192EDD0F00A67393 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe Book Real.app/Recipe Book Real";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe Book Real/Recipe Book Real-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Recipe Book RealTests/Recipe Book RealTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3C7CB77C192EDD0F00A67393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Recipe Book Real.app/Recipe Book Real";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Recipe Book Real/Recipe Book Real-Prefix.pch";
+				INFOPLIST_FILE = "Recipe Book RealTests/Recipe Book RealTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3C7CB746192EDD0F00A67393 /* Build configuration list for PBXProject "Recipe Book Real" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C7CB775192EDD0F00A67393 /* Debug */,
+				3C7CB776192EDD0F00A67393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3C7CB777192EDD0F00A67393 /* Build configuration list for PBXNativeTarget "Recipe Book Real" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C7CB778192EDD0F00A67393 /* Debug */,
+				3C7CB779192EDD0F00A67393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		3C7CB77A192EDD0F00A67393 /* Build configuration list for PBXNativeTarget "Recipe Book RealTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3C7CB77B192EDD0F00A67393 /* Debug */,
+				3C7CB77C192EDD0F00A67393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3C7CB743192EDD0F00A67393 /* Project object */;
+}
