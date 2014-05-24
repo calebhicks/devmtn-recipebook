@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3C5A0A2C1930271100997CFB /* RXRecipes.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A0A2B1930271100997CFB /* RXRecipes.m */; };
 		3C7CB74F192EDD0F00A67393 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7CB74E192EDD0F00A67393 /* Foundation.framework */; };
 		3C7CB751192EDD0F00A67393 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7CB750192EDD0F00A67393 /* CoreGraphics.framework */; };
 		3C7CB753192EDD0F00A67393 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7CB752192EDD0F00A67393 /* UIKit.framework */; };
@@ -19,6 +20,8 @@
 		3C7CB76A192EDD0F00A67393 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7CB752192EDD0F00A67393 /* UIKit.framework */; };
 		3C7CB772192EDD0F00A67393 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3C7CB770192EDD0F00A67393 /* InfoPlist.strings */; };
 		3C7CB774192EDD0F00A67393 /* Recipe_Book_RealTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7CB773192EDD0F00A67393 /* Recipe_Book_RealTests.m */; };
+		3C7CB77F192EDD3900A67393 /* RXViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7CB77E192EDD3900A67393 /* RXViewController.m */; };
+		3C7CB782192EE69600A67393 /* RXTableViewDataSource.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C7CB781192EE69600A67393 /* RXTableViewDataSource.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,6 +35,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		3C5A0A2A1930271100997CFB /* RXRecipes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXRecipes.h; sourceTree = "<group>"; };
+		3C5A0A2B1930271100997CFB /* RXRecipes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXRecipes.m; sourceTree = "<group>"; };
 		3C7CB74B192EDD0F00A67393 /* Recipe Book Real.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe Book Real.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C7CB74E192EDD0F00A67393 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3C7CB750192EDD0F00A67393 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -48,6 +53,10 @@
 		3C7CB76F192EDD0F00A67393 /* Recipe Book RealTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Recipe Book RealTests-Info.plist"; sourceTree = "<group>"; };
 		3C7CB771192EDD0F00A67393 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		3C7CB773192EDD0F00A67393 /* Recipe_Book_RealTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Recipe_Book_RealTests.m; sourceTree = "<group>"; };
+		3C7CB77D192EDD3900A67393 /* RXViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXViewController.h; sourceTree = "<group>"; };
+		3C7CB77E192EDD3900A67393 /* RXViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXViewController.m; sourceTree = "<group>"; };
+		3C7CB780192EE69600A67393 /* RXTableViewDataSource.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXTableViewDataSource.h; sourceTree = "<group>"; };
+		3C7CB781192EE69600A67393 /* RXTableViewDataSource.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXTableViewDataSource.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +118,12 @@
 			children = (
 				3C7CB75D192EDD0F00A67393 /* RXAppDelegate.h */,
 				3C7CB75E192EDD0F00A67393 /* RXAppDelegate.m */,
+				3C7CB77D192EDD3900A67393 /* RXViewController.h */,
+				3C7CB77E192EDD3900A67393 /* RXViewController.m */,
+				3C7CB780192EE69600A67393 /* RXTableViewDataSource.h */,
+				3C7CB781192EE69600A67393 /* RXTableViewDataSource.m */,
+				3C5A0A2A1930271100997CFB /* RXRecipes.h */,
+				3C5A0A2B1930271100997CFB /* RXRecipes.m */,
 				3C7CB760192EDD0F00A67393 /* Images.xcassets */,
 				3C7CB755192EDD0F00A67393 /* Supporting Files */,
 			);
@@ -241,7 +256,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C7CB75F192EDD0F00A67393 /* RXAppDelegate.m in Sources */,
+				3C7CB77F192EDD3900A67393 /* RXViewController.m in Sources */,
+				3C7CB782192EE69600A67393 /* RXTableViewDataSource.m in Sources */,
 				3C7CB75B192EDD0F00A67393 /* main.m in Sources */,
+				3C5A0A2C1930271100997CFB /* RXRecipes.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -438,6 +456,7 @@
 				3C7CB779192EDD0F00A67393 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		3C7CB77A192EDD0F00A67393 /* Build configuration list for PBXNativeTarget "Recipe Book RealTests" */ = {
 			isa = XCConfigurationList;
@@ -446,6 +465,7 @@
 				3C7CB77C192EDD0F00A67393 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

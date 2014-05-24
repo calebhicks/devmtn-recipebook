@@ -8,6 +8,10 @@
 
 #import <Foundation/Foundation.h>
 
-@interface RXTableViewDataSource : NSObject
+@interface RXTableViewDataSource : NSObject <UITableViewDataSource>
+
+- (void)registerTableView:(UITableView *)tableView;
+
+- (CGFloat)heightForIndexPath:(NSIndexPath *)indexPath;
 
 @end

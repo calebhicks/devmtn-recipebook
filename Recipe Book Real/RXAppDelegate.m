@@ -7,6 +7,8 @@
 //
 
 #import "RXAppDelegate.h"
+#import "RXViewController.h"
+#import "RXTableViewDataSource.h"
 
 @implementation RXAppDelegate
 
@@ -16,6 +18,13 @@
     // Override point for customization after application launch.
     self.window.backgroundColor = [UIColor whiteColor];
     [self.window makeKeyAndVisible];
+
+    RXViewController *viewController = [[RXViewController alloc]init];
+    
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:viewController];
+    
+    self.window.rootViewController = nav;
+    
     return YES;
 }
 

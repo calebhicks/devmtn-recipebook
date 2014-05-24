@@ -7,8 +7,14 @@
 //
 
 #import "RXViewController.h"
+#import "RXTableViewDataSource.h"
+
 
 @interface RXViewController ()
+
+@property (nonatomic, strong) UITableView *tableView;
+@property (nonatomic, strong) RXTableViewDataSource *dataSource; // Must be strong to stay in memory, also, wtf is this data source doing // todo: find out why i am setting this property
+
 
 @end
 
@@ -27,6 +33,21 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    
+    self.title = @"Recipe Book";
+    
+    UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
+    //tableView.delegate = self;
+    [self.view addSubview:tableView];
+    
+    
+    RXTableViewDataSource *dataSource = [RXTableViewDataSource new];
+    [dataSource registerTableView:tableView];
+    self.dataSource = dataSource;
+    
+    tableView.dataSource = dataSource;
+    self.tableView = tableView;
+    
 }
 
 - (void)didReceiveMemoryWarning
