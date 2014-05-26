@@ -1,4 +1,4 @@
-DevMtn Class Project Recibe Book
+DevMtn Class Project Recipe Book
 ================================
 
 Recipe Book is a project we are working on in class to learn about protocols and delegates in iOS development.
