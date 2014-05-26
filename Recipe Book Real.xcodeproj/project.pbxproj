@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		3C5A0A2C1930271100997CFB /* RXRecipes.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A0A2B1930271100997CFB /* RXRecipes.m */; };
+		3C5A0A301931114000997CFB /* RXRecipeDetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C5A0A2F1931114000997CFB /* RXRecipeDetailViewController.m */; };
 		3C7CB74F192EDD0F00A67393 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7CB74E192EDD0F00A67393 /* Foundation.framework */; };
 		3C7CB751192EDD0F00A67393 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7CB750192EDD0F00A67393 /* CoreGraphics.framework */; };
 		3C7CB753192EDD0F00A67393 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3C7CB752192EDD0F00A67393 /* UIKit.framework */; };
@@ -37,6 +38,8 @@
 /* Begin PBXFileReference section */
 		3C5A0A2A1930271100997CFB /* RXRecipes.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXRecipes.h; sourceTree = "<group>"; };
 		3C5A0A2B1930271100997CFB /* RXRecipes.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXRecipes.m; sourceTree = "<group>"; };
+		3C5A0A2E1931114000997CFB /* RXRecipeDetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RXRecipeDetailViewController.h; sourceTree = "<group>"; };
+		3C5A0A2F1931114000997CFB /* RXRecipeDetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RXRecipeDetailViewController.m; sourceTree = "<group>"; };
 		3C7CB74B192EDD0F00A67393 /* Recipe Book Real.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Recipe Book Real.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3C7CB74E192EDD0F00A67393 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		3C7CB750192EDD0F00A67393 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -122,6 +125,8 @@
 				3C7CB77E192EDD3900A67393 /* RXViewController.m */,
 				3C7CB780192EE69600A67393 /* RXTableViewDataSource.h */,
 				3C7CB781192EE69600A67393 /* RXTableViewDataSource.m */,
+				3C5A0A2E1931114000997CFB /* RXRecipeDetailViewController.h */,
+				3C5A0A2F1931114000997CFB /* RXRecipeDetailViewController.m */,
 				3C5A0A2A1930271100997CFB /* RXRecipes.h */,
 				3C5A0A2B1930271100997CFB /* RXRecipes.m */,
 				3C7CB760192EDD0F00A67393 /* Images.xcassets */,
@@ -256,6 +261,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3C7CB75F192EDD0F00A67393 /* RXAppDelegate.m in Sources */,
+				3C5A0A301931114000997CFB /* RXRecipeDetailViewController.m in Sources */,
 				3C7CB77F192EDD3900A67393 /* RXViewController.m in Sources */,
 				3C7CB782192EE69600A67393 /* RXTableViewDataSource.m in Sources */,
 				3C7CB75B192EDD0F00A67393 /* main.m in Sources */,

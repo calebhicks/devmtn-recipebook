@@ -8,6 +8,8 @@
 
 #import "RXViewController.h"
 #import "RXTableViewDataSource.h"
+#import "RXRecipes.h"
+#import "RXRecipeDetailViewController.h"
 
 
 @interface RXViewController ()
@@ -37,9 +39,9 @@
     self.title = @"Recipe Book";
     
     UITableView *tableView = [[UITableView alloc] initWithFrame:self.view.bounds style:UITableViewStylePlain];
-    //tableView.delegate = self;
+    tableView.separatorColor = [UIColor darkGrayColor];
+    tableView.delegate = self;
     [self.view addSubview:tableView];
-    
     
     RXTableViewDataSource *dataSource = [RXTableViewDataSource new];
     [dataSource registerTableView:tableView];
@@ -47,6 +49,20 @@
     
     tableView.dataSource = dataSource;
     self.tableView = tableView;
+    
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    
+    // bring in the new view using the navigation controller
+    
+    // create instance of recipe detail view controller, set the recipeIndex property so we know what row they clicked, then push it to the stack
+    RXRecipeDetailViewController *viewController = [RXRecipeDetailViewController new];
+    viewController.recipeIndex = indexPath.row;
+    [self.navigationController pushViewController:viewController animated:NO];
+    
+    [tableView deselectRowAtIndexPath:indexPath animated:YES];
+    
     
 }
 

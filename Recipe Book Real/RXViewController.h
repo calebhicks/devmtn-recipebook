@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RXViewController : UIViewController
+@interface RXViewController : UIViewController <UITableViewDelegate>
 
 @end

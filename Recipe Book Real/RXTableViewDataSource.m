@@ -25,7 +25,11 @@ static NSString * const cellIdentifier = @"identifier";
     return [RXRecipes count];
 }
 
-
+- (NSString *)tableView:(UITableView *)tableView titleForHeaderInSection:(NSInteger)section
+{
+    NSString *sectionTitle = @"Recipes.com";
+    return sectionTitle;
+}
 
 - (void)registerTableView:(UITableView *)tableView {
     

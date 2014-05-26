@@ -10,4 +10,7 @@
 
 @interface RXRecipeDetailViewController : UIViewController
 
+@property (nonatomic, assign) NSInteger recipeIndex;
+
+
 @end
