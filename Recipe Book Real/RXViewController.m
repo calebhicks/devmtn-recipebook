@@ -59,7 +59,7 @@
     // create instance of recipe detail view controller, set the recipeIndex property so we know what row they clicked, then push it to the stack
     RXRecipeDetailViewController *viewController = [RXRecipeDetailViewController new];
     viewController.recipeIndex = indexPath.row;
-    [self.navigationController pushViewController:viewController animated:NO];
+    [self.navigationController pushViewController:viewController animated:YES];
     
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
     

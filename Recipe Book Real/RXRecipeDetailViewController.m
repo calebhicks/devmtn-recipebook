@@ -32,6 +32,7 @@
     // Do any additional setup after loading the view.
     
     self.scrollView = [[UIScrollView alloc]initWithFrame:self.view.bounds];
+    self.scrollView.backgroundColor = [UIColor whiteColor];
     self.title = [RXRecipes titleAtIndex:self.recipeIndex];
     [self.view addSubview:self.scrollView];
     [self displayRecipe];
